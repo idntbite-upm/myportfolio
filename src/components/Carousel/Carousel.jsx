@@ -27,15 +27,6 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={'https://img.freepik.com/vecteurs-premium/nom-asma-dans-art-calligraphie-arabe-diwani_587453-445.jpg'} alt='myImage' />
           <div className={classes.h1}>
-            I'm Sachin
-            <motion.h1
-              initial={{ scale: 1 }}
-              animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
-              transition={{ duration: 3.3, repeat: Infinity }} // Set the duration and repeat
-              whileHover={{
-                scale: 1.1
-              }}
-            >
               <a
                 href='https://drive.google.com/file/d/1K-u020GwRI7tuou-1vEtMtqFfEF5Tl0l/view?usp=sharing'
                 rel='opener noreferrer'
@@ -43,7 +34,6 @@ export default function CarouselImage() {
               >
                 VIEW CV <FaArrowCircleDown />
               </a>
-            </motion.h1>
           </div>
         </div>
        

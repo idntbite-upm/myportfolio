@@ -9,9 +9,9 @@ import Projects from './components/Projects/Projects.jsx';
 import CarouselImages from './components/Carousel/Carousel.jsx';
 
 class App extends Component {
-  render() {
-    return (
-      <Router>
+    render() {
+      return (
+        <Router>
         <div className='App'>
           <div className='side'>
             <nav className='navbar side navbar-expand-lg navbar-light p-0'>
